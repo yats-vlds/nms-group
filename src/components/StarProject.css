@@ -1,0 +1,61 @@
+.star__project {
+    position: relative;
+    clip-path: polygon(50% 12%, 100% 0, 100% 63%, 51% 63%, 0 63%, 0 12%);
+    background: #ededef;
+    min-height: 100vh;
+    z-index: -1;
+    margin-bottom: -350px;
+}
+
+.star__projectSloy {
+    position: relative;
+    height: 100vh;
+    clip-path: polygon(50% 12%, 100% 28%, 100% 62%, 50% 46%, 0 46%, 0 12%);
+    background: #966cfd;
+    z-index: 1;
+}
+
+/*.star__projectLeft {*/
+/*    position: relative;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.star__info {*/
+/*    clip-path: polygon(46% 0, 100% 0, 100% 100%, 45% 100%, 0 82%, 0 0);*/
+/*    height: fit-content;*/
+/*    background: #ededef;*/
+/*}*/
+
+/*.star__infoContainer {*/
+/*    max-width: 1446px;*/
+/*    height: fit-content;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    background: red;*/
+/*}*/
+
+/*.star__infoLine {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.star__infoLineOne {*/
+/*    margin-bottom: 100px;*/
+/*}*/
+
+/*.star__infoText {*/
+/*    font-size: 20px;*/
+/*    line-height: 25px;*/
+/*    color: #000000;*/
+/*    font-weight: 300;*/
+/*    font-family: "Work Sans";*/
+/*    text-align: right;*/
+/*}*/
+
+/*.star__infoLineLeft {*/
+/*    width: 50%;*/
+/*}*/
+
+/*.star__infoLineRight {*/
+/*    width: 50%;*/
+/*}*/

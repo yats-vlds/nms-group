@@ -1,0 +1,55 @@
+.expert {
+    clip-path: polygon(46% 0, 100% 0, 100% 100%, 45% 100%, 0 82%, 0 0);
+    height: fit-content;
+    background: #ededef;
+}
+
+.expert__container {
+    max-width: 1446px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expert__line {
+    display: flex;
+    align-items: center;
+}
+
+.expert__lineLeft {
+    width: 50%;
+    margin-right: 50px;
+}
+.expert__lineRight {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.expert__lineText {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Work Sans";
+    text-align: right;
+}
+
+.expert__lineFirstTitle {
+    font-size: 57px;
+    line-height: 85px;
+    color: #4000ff;
+    font-weight: 700;
+    font-family: "Work Sans";
+}
+
+.expert__lineTitle {
+    font-size: 51px;
+    line-height: 60px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Work Sans";
+    text-align: right;
+}
+
+.expert__lineImage {
+    object-fit: contain;
+}

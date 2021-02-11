@@ -1,0 +1,35 @@
+.cap {
+    margin-top: 120px;
+    max-width: 1624px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.cap_two {
+    max-width: 1624px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.cap__left {
+    width: 60%;
+}
+.cap__right {
+    width: 40%;
+}
+
+.cap__leftTitle {
+    font-size: 144px;
+    line-height: 144px;
+    font-weight: 800;
+    color: #9159cd;
+    font-family: "Work Sans";
+}
+
+.cap__rightImage {
+    margin-top: 20px;
+    margin-left: 6rem;
+}
