@@ -1,0 +1,50 @@
+.bootstrap__table {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    height: fit-content;
+}
+
+.bootstrap__tableLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+
+.bootstrap__tableLine {
+    border: 1px solid #ededef;
+}
+
+.bootstrap__tableRight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+
+.icon {
+    position: absolute;
+    width: 100%;
+}
+
+.bootstrap__tableRightInfo {
+    position: absolute;
+}
+
+.bootstrap__tableRightTitle {
+    margin-left: 85px;
+    font-size: 57px;
+    line-height: 70px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.bootstrap__tableRightText {
+    margin-left: 85px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 300;
+}

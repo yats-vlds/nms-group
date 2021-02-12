@@ -1,0 +1,32 @@
+.whyMe {
+    position: relative;
+    clip-path: polygon(50% 0, 100% 0, 100% 70%, 50% 70%, 0 100%, 0 36%);
+    background: #966cfd;
+    width: 100%;
+    height: 1200px;
+    color: #ffffff;
+}
+
+.whyMe__container {
+    max-width: 1446px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.whyMe__left {
+    width: 50%;
+}
+
+.whyMe__right {
+    width: 50%;
+    padding: 180px;
+}
+
+.whyMe__rightTitle {
+    font-size: 60px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+}

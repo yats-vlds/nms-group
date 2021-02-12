@@ -55,7 +55,7 @@ const Expert = () => {
                     </div>
                 </div>
 
-                <div className="expert__line" style={{paddingBottom: "200px"}}>
+                <div className="expert__line" style={{paddingBottom: "400px"}}>
                     <div className="expert__lineLeft">
                         <h1 className="expert__lineTitle">
                             Creation of an
@@ -72,7 +72,6 @@ const Expert = () => {
                         <img src={shakhmaty} alt="yog" className="expert__lineImage"/>
                     </div>
                 </div>
-
             </div>
         </div>
     )
