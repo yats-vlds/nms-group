@@ -16,7 +16,7 @@ function App() {
                 <Cap />
                 <StarProject/>
                 <Expert />
-                {/*<WhyMe />*/}
+                <WhyMe />
                 {/*<Jobs />*/}
             </div>
         </Router>

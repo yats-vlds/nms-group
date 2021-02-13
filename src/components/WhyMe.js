@@ -1,10 +1,13 @@
 import React from 'react'
 import "./WhyMe.css"
+import background from "../assets/back.svg"
+
 
 const WhyMe = () => {
     return (
         <>
             <div className="whyMe">
+                <img className={background} className="whyMe__background"/>
                 <div className="whyMe__container">
                     <div className="whyMe__left">
 
