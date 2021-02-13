@@ -1,23 +1,41 @@
 .star__project {
     position: relative;
-    clip-path: polygon(50% 12%, 100% 0, 100% 63%, 51% 63%, 0 63%, 0 12%);
-    background: #ededef;
-    min-height: 100vh;
     z-index: -1;
-    margin-bottom: -350px;
+    min-height: 900px;
+    clip-path: polygon(50% 13%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 13%);
+    background: #ededef;
 }
 
 .star__projectSloy {
     position: relative;
-    height: 100vh;
-    clip-path: polygon(50% 12%, 100% 28%, 100% 62%, 50% 46%, 0 46%, 0 12%);
-    background: #966cfd;
     z-index: 1;
+    min-height: 900px;
+    clip-path: polygon(50% 13%, 100% 26%, 100% 76%, 50% 63%, 0 63%, 0 13%);
+    background: #966cfd;
 }
 
-/*.star__projectLeft {*/
+.star__imageBack {
+    position: relative;
+    width: 100%;
+}
+
+.star__projectLeft {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 350px;
+    z-index: 3;
+}
+
+.star__projectLeftTitle {
+    font-size: 49px;
+    line-height: 91px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+}
+/*.star__projectContent {*/
 /*    position: relative;*/
-/*    height: 100vh;*/
+/*    padding-top: 400px;*/
 /*}*/
 
 /*.star__info {*/

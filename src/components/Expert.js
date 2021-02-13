@@ -4,6 +4,7 @@ import yog from "../assets/yog.svg"
 import shakhmaty from "../assets/shakhmaty.svg"
 import vess from "../assets/vess.svg"
 
+
 const Expert = () => {
     return (
         <div className="expert">
