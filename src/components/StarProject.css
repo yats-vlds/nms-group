@@ -4,6 +4,7 @@
     min-height: 900px;
     clip-path: polygon(50% 13%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 13%);
     background: #ededef;
+    margin-bottom: -300px;
 }
 
 .star__projectSloy {
