@@ -1,7 +1,7 @@
 .bootstrap__table {
     display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    height: 2000px;
+    grid-template-columns: 1.166666667fr 0.833333333fr;
+    height: 1300px;
 }
 
 .bootstrap__tableLeft {
@@ -12,9 +12,16 @@
     z-index: -1;
 }
 
-.bootstrap__tableLine {
-    border: 1px solid #ededef;
+.bootstrap__tableLineOne {
+    border-left: 1px solid #ededef;
+    border-top: 1px solid #ededef;
 }
+
+.bootstrap__tableLineTwo {
+    border-left: 1px solid #ededef;
+    border-bottom: 1px solid #ededef;
+}
+
 
 .bootstrap__tableRight {
     display: grid;
@@ -55,18 +62,106 @@
     position: absolute;
 }
 
-.bootstrap__tableRightTitle {
+.bootstrap__tableTitle {
     margin-left: 85px;
     font-size: 57px;
     line-height: 70px;
     color: #000000;
-    font-weight: 700;
+    font-weight: bold;
 }
 
-.bootstrap__tableRightText {
+.bootstrap__tableTwoTitle {
+    margin-left: 85px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.bootstrap__tableText {
     margin-left: 85px;
     font-size: 20px;
     line-height: 25px;
     color: #000000;
     font-weight: 300;
 }
+
+/*BOOTSTRAP TABLE TWO*/
+
+
+.bootstrap__tableTwo {
+    display: grid;
+    grid-template-columns: 0.833333333fr 1.166666667fr;
+    height: 1300px;
+}
+
+.bootstrap__tableTwoLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.bootstrap__tableTwoRight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.iconTableTwo {
+    position: absolute;
+    z-index: 8;
+    opacity: 0;
+    width: 100%;
+}
+.icon2TableTwo {
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+}
+
+.icon3TableTwo {
+    position: absolute;
+    z-index: 9;
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+/*.icon4 {*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    margin-top: 10rem;*/
+/*    margin-left: 4rem;*/
+/*}*/
+
+.bootstrap__tableTwoLeftInfo {
+    position: absolute;
+}
+
+/*.bootstrap__tableTitle {*/
+/*    margin-left: 85px;*/
+/*    font-size: 57px;*/
+/*    line-height: 70px;*/
+/*    color: #000000;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.bootstrap__tableTwoTitle {*/
+/*    margin-left: 85px;*/
+/*    font-size: 36px;*/
+/*    line-height: 36px;*/
+/*    color: #000000;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.bootstrap__tableText {*/
+/*    margin-left: 85px;*/
+/*    font-size: 20px;*/
+/*    line-height: 25px;*/
+/*    color: #000000;*/
+/*    font-weight: 300;*/
+/*}*/
+
