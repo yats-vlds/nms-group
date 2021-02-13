@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Jobs.css"
-import icon from "../assets/shakhmaty.svg"
+import pryamugolnik from "../assets/Прямоугольник3.svg"
+import shadow  from "../assets/shadow.png"
+import sloygoPrint  from "../assets/sloygoPrint.svg"
+import goPrintOriginal  from "../assets/goPrintOriginal.svg"
 
 const Jobs = () => {
     return (
@@ -13,7 +16,11 @@ const Jobs = () => {
                 <div className="bootstrap__tableLine"></div>
                 <div className="bootstrap__tableLine"></div>
                 <div className="bootstrap__tableLine"></div>
-                <img src={icon} className="icon"/>
+                    <img src={shadow} className="icon2" />
+                    <img src={pryamugolnik} className="icon" />
+                    <img src={sloygoPrint} className="icon3" />
+                    <img src={sloygoPrint} className="icon3" />
+                    <img src={goPrintOriginal} className="icon4" />
             </div>
             <div className="bootstrap__tableRight">
                 <div className="bootstrap__tableLine"></div>
