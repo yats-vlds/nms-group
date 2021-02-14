@@ -22,6 +22,7 @@ function App() {
                 <Jobs/>
                 <Form/>
                 <Ten/>
+                <Footer />
             </div>
         </Router>
     );
