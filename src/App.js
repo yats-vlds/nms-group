@@ -21,8 +21,8 @@ function App() {
                 <WhyMe/>
                 <Jobs/>
                 <Form/>
-                {/*<Ten/>*/}
-                {/*<Footer />*/}
+                <Ten/>
+                <Footer />
             </div>
         </Router>
     );

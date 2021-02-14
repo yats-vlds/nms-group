@@ -56,3 +56,51 @@
     margin-left: auto;
     margin-right: 33rem;
 }
+
+@media (max-width: 1440px) {
+    .ten__yog {
+        margin-left: 60rem;
+        margin-top: -37rem;
+    }
+
+    .ellipse {
+        margin-right: 13rem;
+    }
+
+    .ten__contentLeftTitle {
+        font-size: 57px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ten__yog {
+        margin-left: 32rem;
+        margin-top: -48rem;
+        height: 532px;
+        width: 200px;
+    }
+
+    .ellipse {
+        margin-right: 13rem;
+    }
+
+    .ten__contentLeftTitle {
+        font-size: 40px;
+    }
+
+    .tenSloy {
+        min-height: 652px;
+    }
+
+    .ten__contentLeftTitle {
+        padding-top: 14rem;
+        padding-left: 6rem;
+    }
+    .ellipse {
+        margin-right: 5rem;
+        width: 118px;
+    }
+    .ten {
+        min-height: 898px;
+    }
+}
