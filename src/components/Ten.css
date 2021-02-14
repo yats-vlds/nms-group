@@ -58,6 +58,9 @@
 }
 
 @media (max-width: 1440px) {
+    .ten {
+        margin-bottom: -285px;
+    }
     .ten__yog {
         margin-left: 60rem;
         margin-top: -37rem;
@@ -73,15 +76,14 @@
 }
 
 @media (max-width: 1024px) {
+    .ten {
+        margin-bottom: -300px;
+    }
     .ten__yog {
         margin-left: 32rem;
         margin-top: -48rem;
         height: 532px;
         width: 200px;
-    }
-
-    .ellipse {
-        margin-right: 13rem;
     }
 
     .ten__contentLeftTitle {
@@ -97,7 +99,7 @@
         padding-left: 6rem;
     }
     .ellipse {
-        margin-right: 5rem;
+        margin-right: 22rem;
         width: 118px;
     }
     .ten {
