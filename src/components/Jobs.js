@@ -37,7 +37,7 @@ const Jobs = () => {
                     <div className="bootstrap__tableLineOne"></div>
                     <div className="bootstrap__tableLineOne"></div>
                     <div className="bootstrap__tableRightInfo">
-                        <h1 className="bootstrap__tableTitle" style={{marginTop: "180px", marginBottom: "23px"}}>
+                        <h1 className="bootstrap__tableTitle bootstrap__marginTop" style={{ marginBottom: "23px"}}>
                             Project name
                         </h1>
                         <p className="bootstrap__tableText" style={{marginBottom: "90px"}}>No matter what type of your

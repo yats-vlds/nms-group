@@ -36,7 +36,7 @@ const FormRequest = () => {
                             </h1>
                         </div>
                     </div>
-                    <div className="ellipse">
+                    <div className="ellipse-btn">
                     </div>
                 </div>
             </div>

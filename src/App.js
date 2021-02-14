@@ -20,7 +20,7 @@ function App() {
                 <Expert/>
                 <WhyMe/>
                 <Jobs/>
-                {/*<Form/>*/}
+                <Form/>
                 {/*<Ten/>*/}
                 {/*<Footer />*/}
             </div>
