@@ -17,12 +17,12 @@ function App() {
                 <Header/>
                 <Cap/>
                 <StarProject/>
-                <Expert/>
-                <WhyMe/>
-                <Jobs/>
-                <Form/>
-                <Ten/>
-                <Footer />
+                {/*<Expert/>*/}
+                {/*<WhyMe/>*/}
+                {/*<Jobs/>*/}
+                {/*<Form/>*/}
+                {/*<Ten/>*/}
+                {/*<Footer />*/}
             </div>
         </Router>
     );

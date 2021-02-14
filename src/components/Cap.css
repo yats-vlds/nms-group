@@ -33,3 +33,43 @@
     margin-top: 20px;
     margin-left: 6rem;
 }
+
+@media (max-width: 1440px) {
+    .cap__leftTitle {
+        font-size: 123px;
+        line-height: 123px;
+    }
+
+    .cap__rightImage {
+        margin-left: -2rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cap {
+        margin-top: 40px;
+    }
+
+    .cap__leftTitle {
+        font-size: 106px;
+        line-height: 109px;
+    }
+
+    .cap__rightImage {
+        margin-left: -1rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cap__leftTitle {
+        font-size: 76px;
+        line-height: 91px;
+    }
+
+    .cap__rightImage {
+        margin-left: -1rem;
+        width: 100%;
+    }
+}

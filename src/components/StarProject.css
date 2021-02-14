@@ -78,3 +78,45 @@
 /*.star__infoLineRight {*/
 /*    width: 50%;*/
 /*}*/
+
+
+
+@media (max-width: 1440px) {
+    .star__projectLeft {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 200px;
+        z-index: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .star__project {
+        min-height: 537px;
+    }
+    .star__projectSloy {
+        min-height: 519px;
+    }
+    .star__projectLeft {
+        margin-left: 30px;
+        margin-top: 136px;
+    }
+
+    .star__projectLeftTitle {
+        font-size: 22px!important;
+        line-height: 40px!important;
+    }
+
+    img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .star__projectLeftTitle {
+        font-size: 30px;
+        line-height: 63px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+}
