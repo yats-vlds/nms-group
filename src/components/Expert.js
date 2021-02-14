@@ -34,13 +34,13 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="expert__lineRight">
-                        <img src={yog} alt="yog"/>
+                        <img src={yog} alt="yog" className="expert__img"/>
                     </div>
                 </div>
 
                 <div className="expert__line">
                     <div className="expert__lineLeft">
-                        <img src={vess} alt="yog"/>
+                        <img src={vess} alt="yog" className="expert__img"/>
                     </div>
                     <div className="expert__lineRight">
                         <h1 className="expert__lineTitle">
@@ -56,7 +56,7 @@ const Expert = () => {
                     </div>
                 </div>
 
-                <div className="expert__line" style={{paddingBottom: "400px"}}>
+                <div className="expert__line expert__lineLast">
                     <div className="expert__lineLeft">
                         <h1 className="expert__lineTitle">
                             Creation of an
@@ -70,7 +70,7 @@ const Expert = () => {
                         </p>
                     </div>
                     <div className="expert__lineRight">
-                        <img src={shakhmaty} alt="yog" className="expert__lineImage"/>
+                        <img src={shakhmaty} alt="yog" className="expert__lineImage" className="expert__img"/>
                     </div>
                 </div>
             </div>

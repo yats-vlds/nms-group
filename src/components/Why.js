@@ -2,10 +2,10 @@ import React from 'react'
 import "./WhyMe.css"
 import background from "../assets/back.svg"
 import karher from "../assets/karher.svg"
-import lactel from "../assets/lactel.svg"
+import lactel from "../assets/lactel.png"
 import danfos from "../assets/danfos.svg"
-import goprint from "../assets/goprint.svg"
-import ukrtelecom from "../assets/ukrtelecom.svg"
+import goprint from "../assets/goprint.png"
+import ukrtelecom from "../assets/ukrtelecom.png"
 
 
 const Why = () => {
