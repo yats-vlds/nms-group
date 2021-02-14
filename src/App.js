@@ -7,17 +7,21 @@ import Expert from "./components/Expert";
 import WhyMe from "./components/Why";
 import Jobs from "./components/Jobs";
 import Footer from "./components/Footer";
+import Form from "./components/FormRequest";
+import Ten from "./components/Ten";
 
 function App() {
     return (
         <Router>
             <div className="app">
                 <Header/>
-                <Cap />
+                <Cap/>
                 <StarProject/>
-                <Expert />
-                <WhyMe />
-                <Jobs />
+                <Expert/>
+                <WhyMe/>
+                <Jobs/>
+                <Form/>
+                <Ten/>
             </div>
         </Router>
     );
