@@ -5,10 +5,10 @@ import iconWhatsApp from "../assets/iconWhatsApp.png"
 import iconViber from "../assets/iconViber.png"
 import iconTelegram from "../assets/iconTelegram.png"
 
-const Footer = () => {
+const Footer = ({id}) => {
     return (
         <>
-            <div className="footer">
+            <div className="footer" id={id}>
                 <img src={nmsDev} className="footer__img"/>
                 <h5 className="footer__location">Team based in Kyiv, Ukraine</h5>
                 <div className="footer__contacts">

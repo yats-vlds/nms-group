@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
-import {Link} from "react-router-dom"
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Header.css"
 
 const Header = () => {
@@ -10,17 +10,48 @@ const Header = () => {
                 <img src={logo} className="header__logo"/>
                 <div className="header__nav">
                     <div className="header__navLeft">
-                        <Link to='/' className="header__link" style={{marginLeft: "16px"}}>
+                        <Link
+                            activeClass="active"
+                            to="expertise"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            className="header__link"
+                            style={{marginLeft: "16px"}}>
                             Expertise
                         </Link>
-                        <Link to='/' className="header__link">
+                        <Link
+                            activeClass="active"
+                            to="why"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            className="header__link"
+                        >
                             Why are we
                         </Link>
-                        <Link to='/' className="header__link">
+                        <Link
+                            activeClass="active"
+                            to="works"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            className="header__link"
+                        >
                             Works
                         </Link>
                     </div>
-                    <Link to='/' className="header__linkContacts">
+                    <Link
+                        activeClass="active"
+                        to="contacts"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="header__linkContacts">
                         Contact us
                     </Link>
                 </div>

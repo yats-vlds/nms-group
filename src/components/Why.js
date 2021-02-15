@@ -8,9 +8,9 @@ import goprint from "../assets/goprint.png"
 import ukrtelecom from "../assets/ukrtelecom.png"
 
 
-const Why = () => {
+const Why = ({ id }) => {
     return (
-        <div className="why__me">
+        <div className="why__me" id={id}>
             <div className="why__meSloy">
                 <div className="why__meContent">
                     <div className="why__meContentLeft">

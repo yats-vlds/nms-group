@@ -13,10 +13,10 @@ import tableTree2 from "../assets/tableThree2.svg"
 import tableThree3 from "../assets/tableThree3.svg"
 import tableThree4 from "../assets/tableThree4.svg"
 
-const Jobs = () => {
+const Jobs = ({id}) => {
     return (
         <>
-            <div className="bootstrap__table">
+            <div className="bootstrap__table" id={id}>
                 <div className="bootstrap__tableLeft">
                     <div className="bootstrap__tableLineOne"></div>
                     <div className="bootstrap__tableLineOne"></div>

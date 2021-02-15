@@ -16,13 +16,13 @@ function App() {
             <div className="app">
                 <Header/>
                 <Cap/>
-                <StarProject/>
+                <StarProject id="expertise"/>
                 <Expert/>
-                <WhyMe/>
-                <Jobs/>
+                <WhyMe id="why"/>
+                <Jobs id="works"/>
                 <Form/>
                 <Ten/>
-                <Footer />
+                <Footer id="contacts" />
             </div>
         </Router>
     );
